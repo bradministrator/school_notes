@@ -3,12 +3,12 @@
  - Banned colonists in negotiating with indians for land
  - Acknowledged Indian land rights (occupancy and ownership)
 
-1857 - Gradual Civilization Act
-				* Bluntly states the Crown's key policy is assimilation of Indians
-				  - Funds set aside for education
-				  - Residential Schools
-				  - Women & Children's status tied to husband/father
-				  - Legal identity tied to marital status
+## 1857 - Gradual Civilization Act
+- Bluntly states the Crown's key policy is assimilation of Indians
+ - Funds set aside for education
+ - Residential Schools
+ - Women & Children's status tied to husband/father
+ - Legal identity tied to marital status
 
 1867 - British North America Act
 				* Section 91(24)
