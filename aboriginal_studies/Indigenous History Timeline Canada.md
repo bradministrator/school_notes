@@ -77,9 +77,9 @@
  - New rules for children born after April 16, 1985
  - New rights for FN to develop and apply rules governing membership
 
-##1996 - Last Residential School Closed
+## 1996 - Last Residential School Closed
 
-##1998 - Nisga'a Treaty Ratified
+## 1998 - Nisga'a Treaty Ratified
 - First Modern Treaty in BC
  - $196 million
  - 2019 km2 of land
