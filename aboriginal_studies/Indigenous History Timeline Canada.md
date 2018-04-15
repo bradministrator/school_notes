@@ -1,6 +1,8 @@
 # 1763 - Royal Proclamation
 - All lands West of Appalachian mountains British sovereign territory reserved for native peoples
+
 -- Banned colonists in negotiating with indians for land
+
 -- Acknowledged Indian land rights (occupancy and ownership)
 
 1857 - Gradual Civilization Act
