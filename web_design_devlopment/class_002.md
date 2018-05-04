@@ -1,11 +1,12 @@
 ##Class 2!
 
 - beware of copyright!
+- use lorem ipsum placeholder text!
 
 
 ## resources:
 
-- w3schools
+- http://w3schools.com
 
 ## HTML
  - Document structure
@@ -77,3 +78,19 @@
 	INCORRECT:
 	<strong>some text <em>here</strong></em>
 ```
+
+##Special Characters in HTML
+ - ```&quot;``` --> &quot;
+ - ```&copy;``` --> &copy;
+ - ```&nbsp;``` --> non breaking space
+
+##HTML Comments
+```html
+	<!-- this is a comment and will not be rendered by the browser -->
+	<!-- beware that this will be included in the 'view source' option! -->
+```
+
+##Homework:
+ - review http://www.choppoint.org and determine the following:
+ - who are the target users/visitors?
+ - Do you have any existing research
