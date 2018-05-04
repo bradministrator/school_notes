@@ -68,4 +68,12 @@
 	</html>
 ```
 
-##
+##Tag order
+- Ensure tags are properly nested
+```html
+	Correctly nested:
+	<strong>some text <em>here</em></strong>
+
+	INCORRECT:
+	<strong>some text <em>here</strong></em>
+```

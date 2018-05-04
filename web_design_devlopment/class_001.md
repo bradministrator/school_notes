@@ -1,6 +1,6 @@
-#Course Website:
-http://courses.acs.uwinnipeg.ca/1809-050
-passphrase:  acs18095
+##Course Website:
+- http://courses.acs.uwinnipeg.ca/1809-050
+- passphrase:  acs18095
 
 
 ##Assignemnt 1
