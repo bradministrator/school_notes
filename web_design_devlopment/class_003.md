@@ -160,3 +160,12 @@ p {
 </body>
 </html>
 ```
+
+#Rules of cascading order
+• The term "cascading" also refers to the hierarchical order in which different style sheet types interact when conflicts arise.
+• style sheets cascade in this order
+
+#Cascading Order
+• Inline rules take precedence over internal styles, which take precedence over external styles.
+• Tag of a document overrides a linked style sheet, while a ruleset in the body of a document
+• overrides done in the head tag.
