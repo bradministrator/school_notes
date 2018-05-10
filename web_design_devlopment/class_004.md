@@ -37,3 +37,13 @@
 - easier to scan quickly for content
 - the most important information at the top
 - web users might not have the patience to scroll down
+
+##Markup Text
+- The ways of formatting text in HTML
+- Text-level semantics
+- How the affected text will be used on the page
+- Not how it will be displayed
+- The web browsers decide how to display the affected text
+- Examples:
+- abbr, var, cite, code, strong, sub, sup, ...
+- Check table 4-1 for a list of the most commonly used semantics elements
