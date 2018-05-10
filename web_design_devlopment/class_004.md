@@ -16,3 +16,24 @@
 - adding logical emphasis to sections of text
 - style sections of text changing font characteristics
 - offer printer friendly versions of text content
+
+##Ensure onscreen readability
+- Always try to avoid putting extensive amouts of text on a screen
+- difficult on the eyes
+- tiresome and inconvenient
+- reading from screens is very different from printed materials
+- You better treat them differently
+- Keep it short and concise
+- web users' attention to your page likely won't last over several screens or several seconds
+- if you have to put a long article on your website then try to break it into multiple pages
+- seperate paragraphs with blank lines
+- limit column widths
+- ease speed reading
+- avoid underlining - implies a link
+- when centering text, use moderation
+- don't overemphasize
+- avoid uppercase
+- use lists and group related infromation
+- easier to scan quickly for content
+- the most important information at the top
+- web users might not have the patience to scroll down
