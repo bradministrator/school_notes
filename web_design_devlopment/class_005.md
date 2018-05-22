@@ -115,3 +115,21 @@ div{
   }
 ```
 
+## Working with Links
+- Add Links to Other Web Pages
+- Add Links to Sections within the same web page
+- add links to e-mail addresses and dowloadable files
+- style links
+- customize links by settingthe tab order, keyboard shortcuts, and target window
+
+## Links to other web pages
+- you can add links to other web pages whether they are part of your web site or someone else's
+  - to do so requires using the a tag
+
+## 'a' tag
+- the a tag istelf doesn't server much purpose without it's attributes
+  - the most common attribute is href
+  - href is short for hypertext reference
+  - it tells the browser where to find the information to which you are linking
+  - other attributes are name, title, target, accesskey, tabindex
+
