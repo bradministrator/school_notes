@@ -1,0 +1,20 @@
+.menu-item{
+  color:#BEB5B1;
+  font-family: helvetica, verdana;
+}
+.home-title{
+  color:white;
+  font-family: georgia, verdana;
+}
+a.undecorated-link:link{
+  text-decoration:none;
+}
+a.undecorated-link:visited{
+  text-decoration:none;
+}
+a.undecorated-link:hover{
+  text-decoration:underline;
+}
+a.undecorated-link:active{
+  text-decoration:none;
+}
