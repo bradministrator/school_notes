@@ -2,8 +2,137 @@
 <html>
 <head>
   <title>RARE BOOKS Inc. - Appointments</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/main-page.css">
+  <style type="text/css">
+    #splash{
+      background-image: url('images/rare_books_007.jpeg');
+      height: 325px;
+      padding: 0px;
+    }
+    table{
+      margin-left:auto;
+      margin-right:auto;
+    }
+    tr{
+      padding: 5px 5px;
+    }
+    th{
+      padding: 5px 10px;
+      text-align: center;
+    }
+    td{
+      padding: 5px 10px;
+      text-align: center;
+    }
+    td.available{
+      background-color: green;
+    }
+    td.booked{
+      background-color: red;
+    }
+  </style>
 </head>
 <body>
-
+  <section id="side-menu">
+    <ul>
+      <li>
+        <a href="browse.html" class="menu-item undecorated-link">Browse</a>
+      </li>
+      <li>
+        <a href="sell.html" class="menu-item undecorated-link">Sell to Us</a>
+      </li>
+      <li>
+        <a href="appointments.html" class="menu-item undecorated-link">Appointments</a>
+      </li>
+      <li>
+        <a href="mailto:info&#64;rarebooks&#46;com" class="menu-item undecorated-link">Contact Us</a>
+      </li>
+      <li>
+        <a href="about-us.html" class="menu-item undecorated-link">About Us</a>
+      </li>
+      <li>
+        <a href="careers.html" class="menu-item undecorated-link">Careers</a>
+      </li>
+    </ul>
+  </section>
+  <section id="content">
+    <section id="splash">
+    <h1 style="text-align:center; margin-top:0px; padding-top:10px; font-size:18pt;">
+      <a class="home-title undecorated-link" id="top" href="index.html">RARE BOOKS Inc.</a>
+      <br>
+      <a class="home-title undecorated-link" href="appointments.html">Appointments</a>
+    </h1>
+    </section>
+    <section>
+      <h2 style="text-align:center;">
+        <a style="padding: 10px 25px; color: #2d6785;" href="mailto:appointments&#64;rarebooks&#46;com">
+          Book an Appointment
+        </a>  
+      </h2>
+      
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+        <tr>
+          <td>9:00am - 11:00am</td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+        </tr>
+        <tr>
+          <td>11:00am - 12:30am</td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+        </tr>
+        <tr>
+          <td>12:30pm - 1:00pm</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+        </tr>
+        <tr>
+          <td>1:00pm - 3:00pm</td>
+          <td class="booked"></td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="booked"></td>
+        </tr>
+        <tr>
+          <td>3:00pm - 5:00pm</td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+        </tr>
+      </table>
+    </section>
+  </section>
 </body>
 </html>

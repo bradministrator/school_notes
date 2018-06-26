@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RARE BOOKS Inc. - Appointments</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/main-page.css">
+  <style type="text/css">
+    #splash{
+      background-image: url('images/rare_books_007.jpeg');
+      height: 325px;
+      padding: 0px;
+    }
+    p{
+      margin: 0px;
+      padding: 25px 100px;
+      color: #2E364B;
+    }
+    table{
+      margin-left:auto;
+      margin-right:auto;
+      margin-bottom: 75px;
+    }
+    tr{
+      padding: 5px 5px;
+    }
+    th{
+      padding: 5px 10px;
+      text-align: center;
+    }
+    td{
+      padding: 5px 10px;
+      text-align: center;
+    }
+    td.available{
+      background-color: green;
+    }
+    td.booked{
+      background-color: red;
+    }
+  </style>
+  <script type="text/javascript">
+    function setUpClickEvents(){
+      tds = document.getElementsByTagName('td');
+      
+      for(i=0; i < tds.length; i++){
+        is_clickable = false;
+        class_list = tds[i].classList
+        current_class = getClassFromList(class_list);
+        
+        if(current_class == 'available'){
+          tds[i].onclick = function(e){
+            e.target.classList.remove(current_class);
+            e.target.classList.add('booked');
+          }
+        }
+      }
+    }
+
+    function getClassFromList(class_list){
+      for(classidx = 0; classidx < class_list.length; classidx++){
+        if(class_list[classidx] == 'booked' || class_list[classidx] == 'available'){
+          return class_list[classidx];
+        }
+        return null;
+      }
+    }
+  </script>
+</head>
+<body onload="setUpClickEvents();">
+  <section id="side-menu">
+    <ul>
+      <li>
+        <a href="index.html" class="menu-item">Home</a>
+      </li>
+      <li>
+        <a href="browse.html" class="menu-item">Browse</a>
+      </li>
+      <li>
+        <a href="sell.html" class="menu-item">Sell to Us</a>
+      </li>
+      <li>
+        <a href="appointments.html" class="menu-item current">Appointments</a>
+      </li>
+      <li>
+        <a href="mailto:info&#64;rarebooks&#46;com" class="menu-item">E-Mail Us</a>
+      </li>
+      <li>
+        <a href="about-us.html" class="menu-item">About Us</a>
+      </li>
+      <li>
+        <a href="careers.html" class="menu-item">Careers</a>
+      </li>
+    </ul>
+  </section>
+  <section id="content">
+    <div id="title-bar">
+      <a class="home-title undecorated-link" href="index.html">RARE BOOKS Inc. - Appointments</a>
+    </div>
+    <section id="splash"></section>
+    <section>
+      <h2 id="top" style="text-align:center;">
+        <a style="padding: 10px 25px; color: #2d6785;" href="mailto:appointments&#64;rarebooks&#46;com">
+          Book an Appointment
+        </a>  
+      </h2>
+      <p>
+        Click one of the available (green) options below.  Then click <a href="mailto:appointments&#64;rarebooks&#46;com">here</a>
+        to send an email requesting your selected time-slot. The email is important so we can update you with any information we
+        require prior to your appointment.  We will respond within 2 business days.
+      </p>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+        <tr>
+          <td>9:00am - 11:00am</td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+        </tr>
+        <tr>
+          <td>11:00am - 12:30am</td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+        </tr>
+        <tr>
+          <td>12:30pm - 1:00pm</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+          <td class="booked">Lunch</td>
+        </tr>
+        <tr>
+          <td>1:00pm - 3:00pm</td>
+          <td class="booked"></td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="booked"></td>
+        </tr>
+        <tr>
+          <td>3:00pm - 5:00pm</td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="available"></td>
+          <td class="booked"></td>
+          <td class="booked"></td>
+          <td class="available"></td>
+        </tr>
+      </table>
+    </section>
+    <footer id="static-footer">
+      &copy; 2018 RARE BOOKS Inc.
+    </footer>
+  </section>
+</body>
+</html>

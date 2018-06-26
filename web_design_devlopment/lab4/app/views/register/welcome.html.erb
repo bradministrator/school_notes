@@ -1,0 +1,61 @@
+<h2>User Registration</h2>
+<p>Please complete the following form to register with our site:</p>
+<%# options: %>
+<%#   url: named-route | string-url | action:/controller: pair %>
+<%#   namespace: string/symbol to ensure uniqueness of id attributes on form elements %>
+<%#   method: get | post | patch | put | delete %>
+<%#   authenticity_token: false - prevents generation of auth tokens %>
+<%#   remote: true|false - true == ajax %>
+<%#   enforce_utf8: %>
+<%#   html: %>
+<%= form_for @new_registration, {url: '/submit_registration', method: :post, remote: false} do |f| %>
+  <table>
+    <tr>
+      <td>User Name:</td>
+      <td><%= f.text_field(:username, size: 20) %></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><%= f.text_field(:pw, {type: 'password', size: 20}) %></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>
+        <%= f.radio_button(:gender, 'male') %> Male<br>
+        <%= f.radio_button(:gender, 'female') %> Female
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+        How did you hear about us?
+      </td>
+      <td>
+        <%= f.select(:reference) do %>
+          <% [[nil, 'Select answer'], ['website', 'Another Website'], ['printAd', 'Magazine ad'], ['friend', 'From a friend'], ['other', 'Other']].each do |c| %>
+            <%= content_tag(:option, c.last, value: c.first) %>
+          <% end %>
+        <% end %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Please select this box if you wish <br>
+        to be added to our mailing list <br>
+        <small>We will not pass on your details to any third part.</small>
+        <td><%= f.check_box(:subscribe) %></td>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><%= f.submit(:register) %></td>
+    </tr>
+  </table>
+<% end #form_for %>

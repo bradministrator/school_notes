@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RARE BOOKS Inc. - Sell</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/main-page.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/form-style.css">
+  <style type="text/css">
+    #splash{
+      background-image: url('images/rare_books_006.jpeg');
+      height: 325px;
+      padding: 0px;
+    }
+    p{
+      margin: 0px;
+      padding: 15px 45px;
+      color: #2E364B;
+    }  
+  </style>
+</head>
+<body>
+  <section id="side-menu">
+    <ul>
+      <li>
+        <a href="index.html" class="menu-item">Home</a>
+      </li>
+      <li>
+        <a href="browse.html" class="menu-item">Browse</a>
+      </li>
+      <li>
+        <a href="sell.html" class="menu-item current">Sell to Us</a>
+      </li>
+      <li>
+        <a href="appointments.html" class="menu-item">Appointments</a>
+      </li>
+      <li>
+        <a href="mailto:info&#64;rarebooks&#46;com" class="menu-item">E-Mail Us</a>
+      </li>
+      <li>
+        <a href="about-us.html" class="menu-item">About Us</a>
+      </li>
+      <li>
+        <a href="careers.html" class="menu-item">Careers</a>
+      </li>
+    </ul>
+  </section>
+  <section id="content">
+    <div id="title-bar">
+      <a class="home-title undecorated-link" href="index.html">RARE BOOKS Inc. - Sell</a>
+    </div>
+    <section id="splash"></section>
+    <section>
+      <h3 id="top" style="text-align:center;">Do you have books to sell?</h3>
+      <p style="padding: 0% 20% 25px 20%">
+        Fill out the form below with all of the information and submit it to us.  We will review it and get back to you
+        with any questions or our decision and an offer.
+      </p>
+      <div class="container">
+        <form>
+          <label for="seller-email">Email address</label><br>
+          <input type="email" class="form-control" id="seller-email" name="email" placeholder="Enter your email address"><br>
+          <small id="email-help" class="subtext">We'll never share your email with anyone else.</small><br>
+
+
+          <label for="book-title">Book Title</label><br>
+          <input type="text" id="book-title" name="title" placeholder="Title"><br>
+
+
+          <label for="book-author">Author</label><br>
+          <input type="text" id="book-author" name="author" placeholder="Name of Author"><br>
+
+
+          <label for="book-publisher">Publisher</label><br>
+          <input type="text" id="book-publisher" name="publisher" placeholder="Published by"><br>
+
+
+          <label for="book-publish-year">Publication Year</label><br>
+          <input type="text" id="book-publish-year" name="publish-year" placeholder="Published in year"><br>
+
+          <label for="book-images">Upload Images (Compress and upload multiple images using Zip)</label>
+          <input type="file" name="images" id="book-images"><br>
+
+          <label for="book-quality">Select the quality that best matches the condition of your book</label><br>
+          <select id="book-quality" name="quality">
+            <option value="mint">Mint</option>
+            <option value="near-mint">Near Mint</option>
+            <option value="some-wear">Some Wear</option>
+            <option value="moderate-wear">Moderate Wear</option>
+            <option value="light-damage">Light Damage</option>
+            <option value="terrible">Terrible</option>
+          </select><br>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    <footer id="static-footer">
+      &copy; 2018 RARE BOOKS Inc.
+    </footer>
+  </section>
+</body>
+</html>
